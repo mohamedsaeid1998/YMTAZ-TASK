@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import "./variables.scss";
+@import "./responsive.scss";
+* {
+  font-family: "Almarai", sans-serif;
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+body{
+  background-color: #F9F9F9;
+}
+
+.cycle{
+  filter: drop-shadow(0px 25px 60px  #F9DAD5 );
+}
