@@ -28,6 +28,14 @@ body{
 }
 
 
-.card:hover,.cycle:hover  {
-  background: linear-gradient(130deg, #DDB762, #4a4a4a53 )
+.card:hover  {
+  background: linear-gradient(130deg, #DDB762, #4a4a4a53 );
+
+  .cycle{
+    background: linear-gradient(130deg, #DDB762, #4a4a4a53 );
+    svg{
+      color:white
+    }
+  }
+
 }
