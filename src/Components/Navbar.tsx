@@ -15,7 +15,7 @@ const Navbar = ({ }: IProps) => {
         <ul className="flex items-center gap-10">
           <li><Link href={'/'}>الرئيسيه</Link></li>
           <li><Link href={'/1/5'}>من نحن </Link></li>
-          <li><Link href={'/'}>اتصل بنا</Link></li>
+          <li><Link href={'/1'}>اتصل بنا</Link></li>
           <li><Link href={'/'}>الدعم الفني</Link></li>
           <li><Link href={'/'}>ارقام التشغيل </Link></li>
           <li><Link href={'/'}>سياسة الخصوصيه</Link></li>
