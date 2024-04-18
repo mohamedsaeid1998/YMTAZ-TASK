@@ -123,7 +123,7 @@ const PersonalInfo = ({ }: IProps) => {
             </div>
 
             <span className='text-lg text-[#A3A4A5] '>التقييم العام</span>
-            <p className='text-md text-[#A3A4A5] max-w-[350px] '> “ استشارى ممتاز ومحترف وواعى بشكل كبير بمختلف القضايا القانونية والفقهية"</p>
+            <p className='text-md text-[#A3A4A5] max-w-[350px] '> “  استشارى ممتاز ومحترف وواعى بشكل كبير بمختلف القضايا القانونية والفقهية</p>
             <span className='text-[#A3A4A5] mt-5'>الخميس 3 فبراير 2024</span>
             <div className='flex justify-between items-center'>
               <div className="flex flex-col items-center  gap-1">
