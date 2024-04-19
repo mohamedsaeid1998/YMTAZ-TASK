@@ -1,6 +1,6 @@
 "use client"
 import { IDigitalGuideResponse } from "@/InterFaces/CardsInterFaces";
-import UseAuthenticatedQuery from "@/Utils/Helpers/UseAuthenticatedQuery";
+import UseAuthenticatedQuery from "@/Utils/Hooks/UseAuthenticatedQuery";
 import { Crown, Pencil, Star } from "lucide-react"
 import Image from "next/image";
 import Link from "next/link";
@@ -31,10 +31,10 @@ const PersonCards = () => {
         <Image className='rounded-full h-28 w-28' src={personInfo?.photo} width={100} height={100} alt="personal-Image" />
         <h3 className="text-subSecondaryColor font-semibold text-lg mt-3 mb-1">{`${personInfo?.first_name + " " + personInfo?.second_name + " " + personInfo?.third_name + " " + personInfo?.fourth_name} `} </h3>
         <div className='flex  items-center gap-3 '>
-        <span className="text-[#6F6863] "> محامي متخصص لقضايا البرمجة</span><Crown color='gold' />
+          <span className="text-[#6F6863] "> محامي متخصص لقضايا البرمجة</span><Crown color='gold' />
         </div>
         <div className='flex items-center gap-2 mt-3 '>
-        <Star color='gold' /> <span>4.56 (35 مراجعة) </span>
+          <Star color='gold' /> <span>4.56 (35 مراجعة) </span>
         </div>
 
       </Link>

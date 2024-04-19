@@ -1,5 +1,5 @@
 "use client"
-import UseAuthenticatedQuery from '@/Utils/Helpers/UseAuthenticatedQuery'
+import UseAuthenticatedQuery from '@/Utils/Hooks/UseAuthenticatedQuery'
 import Image from "next/image";
 import { ArrowLeft, ArrowRight, CirclePlay, Crown, PenLine, PhoneCall, Star } from 'lucide-react';
 import Button from './Ui/Button';

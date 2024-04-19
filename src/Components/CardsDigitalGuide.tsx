@@ -1,5 +1,5 @@
 "use client"
-import UseAuthenticatedQuery from '@/Utils/Helpers/UseAuthenticatedQuery';
+import UseAuthenticatedQuery from '@/Utils/Hooks/UseAuthenticatedQuery';
 import { IDigitalGuideResponse } from '@/InterFaces/CardsInterFaces';
 import CardDigitalGuide from './CardDigitalGuide';
 import DigitalGuideSkeleton from './DigitalGuideSkeleton';
@@ -18,7 +18,7 @@ const Cards = ({ }: IProps) => {
   return <>
 
     <div className="grid grid-cols-3 w-[70%] m-auto gap-10 justify-center ">
-        {data?.data?.categories?.map(({ id, lawyers_count, title }: IDigitalGuideResponse) => <CardDigitalGuide {...{ lawyers_count, title }} key={id} />)}
+      {data?.data?.categories?.map(({ id, lawyers_count, title }: IDigitalGuideResponse) => <CardDigitalGuide {...{ lawyers_count, title }} key={id} />)}
     </div>
 
 
